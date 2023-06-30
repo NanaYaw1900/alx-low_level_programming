@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number - print numbers char
+ * print_number - Print numbers char
  * @n: integer params
  * return: 0
  */
@@ -24,4 +24,3 @@ void print_number(int n)
 	}
 	_putchar((n1 % 10) + '0');
 }
-

@@ -1,4 +1,6 @@
-#include "main.h"
+#include <stdio.h>
+#include <string.h>
+
 /**
  * _strncat - A function that concatenates two strings.
  * using at most n bytes from src
@@ -6,7 +8,7 @@
  * @src: input number
  * @n: input number
  *
- * return: dest
+ * return: A pointer to the resulting concatenated string (dest)
  */
 char *_strncat(char *dest, char *src, int n)
 {
