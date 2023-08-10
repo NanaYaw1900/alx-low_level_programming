@@ -1,13 +1,13 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
 
-void close_file(int fd);
 char *create_buffer(char *file);
+void close_file(int fd);
 
 /**
  * create_buffer - 1024 bytes for a buffer to be allocated.
- * @file: The name of the file buffer is storing chars.
+ * @file: The name of the file buffer is storing chars for.
  *
  * Return: A pointer to the newly-allocated buffer.
  */
@@ -45,7 +45,7 @@ void close_file(int fd)
 }
 
 /**
- * main - Copies the contents of a file to another file.
+ * main - Another file content to be copied.
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  *
